@@ -1,11 +1,22 @@
 {
   "short_name": "Aura",
   "name": "Aura — Tracker de Hábitos Minimalista",
+  "description": "Una aplicación minimalista y hermosa para el seguimiento de hábitos diarios, estadísticas y rachas de consistencia.",
   "icons": [
     {
       "src": "/favicon.svg",
       "type": "image/svg+xml",
       "sizes": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/",

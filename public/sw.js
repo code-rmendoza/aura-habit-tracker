@@ -6,6 +6,8 @@ const ASSETS = [
   '/src/App.jsx',
   '/src/index.css',
   '/favicon.svg',
+  '/icon-192.png',
+  '/icon-512.png',
   '/manifest.json'
 ];
 
