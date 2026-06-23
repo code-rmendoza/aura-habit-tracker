@@ -2,6 +2,40 @@
   "short_name": "Aura",
   "name": "Aura — Tracker de Hábitos Minimalista",
   "description": "Una aplicación minimalista y hermosa para el seguimiento de hábitos diarios, estadísticas y rachas de consistencia.",
+  "id": "/?source=pwa",
+  "categories": ["productivity", "utilities", "lifestyle"],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "screenshot-dashboard.png",
+      "sizes": "500x788",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard de Hábitos en Aura"
+    },
+    {
+      "src": "screenshot-stats.png",
+      "sizes": "500x788",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Estadísticas de Hábitos en Aura"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Añadir Hábito",
+      "short_name": "Añadir",
+      "description": "Crea un nuevo hábito rápidamente en Aura",
+      "url": "/?action=add",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
   "icons": [
     {
       "src": "icon-192.png",

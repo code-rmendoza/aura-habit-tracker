@@ -5,7 +5,9 @@ const ASSETS = [
   '/favicon.svg',
   '/icon-192.png',
   '/icon-512.png',
-  '/manifest.json'
+  '/manifest.json',
+  '/screenshot-dashboard.png',
+  '/screenshot-stats.png'
 ];
 
 self.addEventListener('install', (e) => {

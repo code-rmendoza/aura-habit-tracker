@@ -60,6 +60,16 @@ export default function App() {
     localStorage.setItem('aura_theme', theme);
   }, [theme]);
 
+  // Handle PWA shortcuts
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('action') === 'add') {
+      setIsAddModalOpen(true);
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+  }, []);
+
+
   // Actions
   const handleToggleHabit = (habitId, dateStr) => {
     setLogs(prevLogs => {
