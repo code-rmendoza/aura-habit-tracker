@@ -7,26 +7,7 @@ import HabitModal from './components/HabitModal';
 import { formatDateString } from './utils/helpers';
 
 // Default onboarding habits
-const DEFAULT_HABITS = [
-  {
-    id: 'h_def_1',
-    name: 'Meditar 10 min',
-    category: 'Mindfulness',
-    color: '#8B5CF6',
-    icon: 'Brain',
-    frequency: { type: 'daily', days: [] },
-    createdAt: formatDateString(new Date())
-  },
-  {
-    id: 'h_def_2',
-    name: 'Beber 2L de agua',
-    category: 'Salud',
-    color: '#3B82F6',
-    icon: 'Droplet',
-    frequency: { type: 'daily', days: [] },
-    createdAt: formatDateString(new Date())
-  }
-];
+const DEFAULT_HABITS = [];
 
 const DEFAULT_PROFILE = {
   name: 'Cultivador',
