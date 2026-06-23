@@ -2,9 +2,6 @@ const CACHE_NAME = 'aura-v1';
 const ASSETS = [
   '/',
   '/index.html',
-  '/src/main.jsx',
-  '/src/App.jsx',
-  '/src/index.css',
   '/favicon.svg',
   '/icon-192.png',
   '/icon-512.png',
