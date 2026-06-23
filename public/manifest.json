@@ -1,0 +1,16 @@
+{
+  "short_name": "Aura",
+  "name": "Aura — Tracker de Hábitos Minimalista",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0D0E12",
+  "theme_color": "#0D0E12",
+  "display": "standalone",
+  "orientation": "portrait"
+}
